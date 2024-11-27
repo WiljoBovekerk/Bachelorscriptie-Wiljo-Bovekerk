@@ -5,6 +5,7 @@ De volgende analyses zijn verwerkt als bestanden:
 -	Analyse 4 – Multiverse Analyse
 -	Analyse 5 – Correlatie HRV en ‘Time production’
 -	Analyse 6 – Fysiologische Data
+
 Bij analyse 4 horen de bestanden zoals ‘Fys_4_1’.
 Analyse 4 is opgedeeld in bestanden voor ANOVA”s voor de variabelen ‘Time estimation’, ‘Time production’, TLX en voor de MANOVA’s.
 ‘Est’ staat voor ‘Time estimation’.
