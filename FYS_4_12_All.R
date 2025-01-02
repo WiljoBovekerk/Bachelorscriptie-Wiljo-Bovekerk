@@ -6,7 +6,7 @@ library(reshape2)
 library(tidyverse)
 library(readxl)
 
-dataWide <- read_excel("Bachelor Psychologie/Jaar 3/Bachelorproject/R studio/R script/Analyses/Exc_Beh_Fys.xlsx")
+dataWide <- read_excel("Exc_Beh_Fys.xlsx")
 dataWide <- dataWide[, c("Subject", "P1SCR", "P2SCR", "P1HRV", "P2HRV", "P1Asked", "P1Produced", "P2Asked", "P2Produced", "Session", "SessionTime", "EstimationSessionTime",
                          "MentalTLX", "PhysicalTLX", "TemporalTLX", "PerformanceTLX", "EffortTLX", "FrustrationTLX")]
 dataWide$EstimationTime <- dataWide$EstimationSessionTime*60
